@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOLA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Quick Notes</header>
+    <main>
+      <form>
+        <input type="text" placeholder="Add new note" />
+        <button>
+          <img src="https://img.icons8.com/material-outlined/344/plus-math--v1.png" alt="add-icon" />
+        </button>
+      </form>
+
+      <div class="action-bar">
+        <button class="clear-btn">
+          <img src="https://img.icons8.com/windows/2x/refresh.png" alt="clear-btn" />
+        </button>
+
+        <button class="toggle-input-btn">
+          <img
+            src="https://img.icons8.com/external-inkubators-basic-outline-inkubators/2x/external-toggle-user-interface-inkubators-basic-outline-inkubators.png"
+            alt="add-btn"
+          />
+        </button>
+
+        <button class="privacy-mode-btn">
+          <img src="https://img.icons8.com/ios-filled/2x/hide.png" alt="privacy-mode-btn" />
+        </button>
+      </div>
+
+      <div class="notes-list"></div>
+    </main>
+
+    <script src="index.js"></script>
+    <script src="worker.js"></script>
+  </body>
+</html>
